@@ -21,8 +21,7 @@
         android:id="@+id/send_text_container"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:visibility="gone" >
+        android:orientation="horizontal" >
 
         <EditText
             android:id="@+id/edit_text_out"
@@ -44,36 +43,32 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <ImageButton
+        <Button
             android:id="@+id/toolbar_btn_connect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:test="Connect"
-            android:visibility="gone"
+            android:text="Connect"
             tools:ignore="ContentDescription" />
 
-        <ImageButton
+        <Button
             android:id="@+id/toolbar_btn_disconnect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:test="Disconnect"
-            android:visibility="gone"
+            android:text="Disconnect"
             tools:ignore="ContentDescription" />
 
-        <ImageButton
+        <Button
             android:id="@+id/toolbar_btn_pause"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:test="Pause"
-            android:visibility="gone"
+            android:text="Off"
             tools:ignore="ContentDescription" />
 
-        <ImageButton
+        <Button
             android:id="@+id/toolbar_btn_play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:test="Play"
-            android:visibility="gone"
+            android:text="On"
             tools:ignore="ContentDescription" />
     </LinearLayout>
 
